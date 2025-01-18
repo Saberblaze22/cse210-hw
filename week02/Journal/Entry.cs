@@ -15,7 +15,7 @@ public class Entry{
         _promptGenerator._prompts.Add("If I had one thing I could do over today, what would it be?");
         _promptText=_promptGenerator.GetRandomPrompt();
         Console.Write($"{_promptText} ");
-        _entryText=$"{_date}: {_promptText} {Console.ReadLine}";
+        _entryText=$"{_date}: {_promptText} {Console.ReadLine()}";
 
     }
     public void Display(){
