@@ -25,8 +25,7 @@ class Program
                 Console.WriteLine("invalid input ");
             }
             }
-            sConsole.WriteLine("closing journal");
+            Console.WriteLine("closing journal");
         }
 
     }
-}

@@ -1,5 +1,5 @@
 public class Journal{
-   List<Entry> _entries = new List<Entry>
+   List<Entry> _entries = new List<Entry>();
 
    public void DisplayAll(){
     foreach (Entry e in _entries){
