@@ -25,7 +25,7 @@ public class Journal{
     Console.Write("which file do you want to load? ");
     string _filename=Console.ReadLine();
     string[] lines=File.ReadAllLines(_filename);
-    List<Entry> oldentries=new List<Entry>;
+    List<Entry> oldentries=new List<Entry>();
     foreach (string line in lines){
         Entry e=new Entry();
         e._entryText=line;
